@@ -14,7 +14,12 @@
 Route::get('/', function () {
     return view('backend.movies.create');
 
-   
+  
     Route::resource('movies','MovieController');
 
+});
+
+
+Route::get('gethome', function () {
+   echo"I am get Home"
 });
