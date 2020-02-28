@@ -27,5 +27,9 @@ Route::get('/getcontact', function () {
 
 });
 
-Route::resource('movies','MovieController');
+
+
+Route::get('gethome', function () {
+   echo"I am get Home"
+});
 
