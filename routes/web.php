@@ -15,6 +15,17 @@ Route::get('/', function () {
     return view('backend.movies.create');
 
    
-    Route::resource('movies','MovieController');
+    
 
 });
+
+Route::get('/getcontact', function () {
+    echo "I'm getcontact";
+
+   
+    
+
+});
+
+Route::resource('movies','MovieController');
+
